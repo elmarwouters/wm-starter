@@ -1,0 +1,23 @@
+{
+  "name": "wm-starter",
+  "version": "1.0.0",
+  "description": "Next starter for creating a blog with Strapi.",
+  "main": "backend/",
+  "scripts": {
+    "build": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://elmarwouters@github.com/elmarwouters/wm-starter.git"
+  },
+  "author": {
+    "name": "Elmar Wouters",
+    "email": "elmar@elmarwouters.nl",
+    "url": "https://elmarwouters.nl"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elmarwouters/wm-starter/issues"
+  },
+  "homepage": "https://github.com/elmarwouters/wm-starter#readme"
+}
