@@ -2,7 +2,6 @@
   "name": "wm-starter",
   "version": "1.0.0",
   "description": "Next starter for creating a blog with Strapi.",
-  "main": "backend/",
   "scripts": {
     "start": "npm --prefix /backend strapi start"
   },
