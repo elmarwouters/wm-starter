@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Next starter for creating a blog with Strapi.",
   "main": "backend/",
+  "scripts": {
+    "start": "strapi start"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://elmarwouters@github.com/elmarwouters/wm-starter.git"
