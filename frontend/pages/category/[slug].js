@@ -19,7 +19,7 @@ const Category = ({ category, categories }) => {
               <h1 className="title is-1">{category.name}</h1>
               </div>
           </div>
-          <div className="columns is-multilne">
+          <div className="columns is-multiline">
           <Articles articles={category.articles} />
           </div>
         </div>
