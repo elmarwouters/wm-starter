@@ -9,6 +9,9 @@
     "type": "git",
     "url": "git+https://elmarwouters@github.com/elmarwouters/wm-starter.git"
   },
+  "engines": {
+    "yarn": "^1.22.10"
+  },
   "author": {
     "name": "Elmar Wouters",
     "email": "elmar@elmarwouters.nl",
