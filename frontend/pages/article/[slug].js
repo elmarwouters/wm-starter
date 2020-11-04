@@ -3,6 +3,7 @@ import Moment from "react-moment";
 import { fetchAPI } from "../../lib/api";
 import Layout from "../../components/layout";
 import Image from "../../components/image";
+import Hero from "../../components/hero";
 import Seo from "../../components/seo";
 import { getStrapiMedia } from "../../lib/media";
 
@@ -16,21 +17,10 @@ const Article = ({ article, categories }) => {
     article: true,
   };
 
-  const styling = {
-    backgroundImage: `url('${imageUrl}')`,
-  };
-
   return (
     <Layout categories={categories}>
       <Seo seo={seo} />
-      <section className="hero" style={styling}>
-        <div className="hero-body">
-          <div className="container">
-            <h1 className="title has-text-white">{article.title}</h1>
-            <h2 className="subtitle has-text-white">By {article.author.name}</h2>
-          </div>
-        </div>
-      </section>
+      <Hero heroImage={imageUrl} textClass="has-text-white" title={article.title} subtitle={"By " + article.author.name}></Hero>
       <section className="section">
         <div className="container">
           <div className="columns">
