@@ -4,7 +4,7 @@
   "description": "Next starter for creating a blog with Strapi.",
   "main": "backend/",
   "scripts": {
-    "start": "strapi start"
+    "start": "npm --prefix /backend strapi start"
   },
   "repository": {
     "type": "git",
