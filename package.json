@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Next starter for creating a blog with Strapi.",
   "main": "backend/",
-  "scripts": {
-    "build": "npm install yarn build"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://elmarwouters@github.com/elmarwouters/wm-starter.git"
