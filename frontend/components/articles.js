@@ -7,28 +7,21 @@ const Articles = ({ articles }) => {
   const rightArticles = articles.slice(leftArticlesCount, articles.length);
 
   return (
-    <div>
-      <div className="uk-child-width-1-2@s" data-uk-grid="true">
-        <div>
-          {leftArticles.map((article, i) => {
-            return (
-              <Card article={article} key={`article__left__${article.slug}`} />
-            );
-          })}
-        </div>
-        <div>
-          <div className="uk-child-width-1-2@m uk-grid-match" data-uk-grid>
-            {rightArticles.map((article, i) => {
-              return (
-                <Card
-                  article={article}
-                  key={`article__left__${article.slug}`}
-                />
-              );
-            })}
+    <div className="columns is-multiline">
+      {leftArticles.map((article, i) => {
+        return (
+          <div className="column is-6">
+            <Card article={article} key={`article__left__${article.slug}`} />
           </div>
-        </div>
-      </div>
+        );
+      })}
+      {rightArticles.map((article, i) => {
+        return (
+          <div className="column is-3">
+            <Card article={article} key={`article__left__${article.slug}`} />
+          </div>
+        );
+      })}
     </div>
   );
 };

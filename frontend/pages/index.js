@@ -9,9 +9,11 @@ const Home = ({ articles, categories, homepage }) => {
     <Layout categories={categories}>
       <Seo seo={homepage.seo} />
       <div className="container">
-        <div className="column">
-          <h1 className="title is-1">{homepage.hero.title}</h1>
-          <Articles articles={articles} />
+        <div className="columns">
+          <div className="column">
+            <h1 className="title is-1">{homepage.hero.title}</h1>
+            <Articles articles={articles} />
+          </div>
         </div>
       </div>
     </Layout>
