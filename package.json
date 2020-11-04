@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Next starter for creating a blog with Strapi.",
   "scripts": {
-    "start": "chown -R pi:pi /backend npm --prefix /backend strapi start"
+    "start": "npm --prefix /backend strapi start"
   },
   "repository": {
     "type": "git",
