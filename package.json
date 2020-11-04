@@ -4,7 +4,7 @@
   "description": "Next starter for creating a blog with Strapi.",
   "main": "backend/",
   "scripts": {
-    "build": "yarn build"
+    "build": "npm install yarn build"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/elmarwouters/wm-starter/issues"
   },
-  "homepage": "https://github.com/elmarwouters/wm-starter#readme"
+  "homepage": "https://github.com/elmarwouters/wm-starter#readme",
+  "dependencies": {
+    "yarn": "^1.22.10"
+  }
 }
